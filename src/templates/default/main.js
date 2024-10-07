@@ -1,24 +1,23 @@
 import { setupCounter } from './counter.js';
-import javascriptLogo from './javascript.svg';
 import './style.css';
-import viteLogo from '/vite.svg';
 
-document.querySelector('#app').innerHTML = `
+const element = document.querySelector('#app');
+
+if (element  === null) {
+  // throw new Error('Element not found');
+}
+
+element.innerHTML = `
   <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
+    <h1>Helloo, Karatu Frontendstars</h1>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
     <p class="read-the-docs">
-      Click on the Vite logo to learn more
+      Click <span><a href="https://javascript.oluwasetemi.dev/1" target="_blank">here</a></span> to go to the class notes
     </p>
   </div>
 `;
 
-setupCounter(document.querySelector('#counter'));
+const counter = document.querySelector('#counter')
+setupCounter(counter);

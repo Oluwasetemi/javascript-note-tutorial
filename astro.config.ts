@@ -5,5 +5,10 @@ export default defineConfig({
   devToolbar: {
     enabled: false,
   },
-  integrations: [tutorialkit()],
+  site: 'https://javascript-tutorial.oluwasetemi.dev',
+  integrations: [tutorialkit({
+    components: {
+      TopBar: './src/components/CustomTopBar.astro',
+    }
+  })],
 });
