@@ -1,5 +1,6 @@
 ---
 type: lesson
+slug: modifying-dom-2
 title: Changing the DOM 2
 focus: /main.js
 ---
@@ -17,5 +18,9 @@ const element = document.querySelector('#app');
 
 element.remove(); // removes the element from the DOM
 ```
+
+:::danger
+The `remove` method can be dangerous if not used properly. It removes the element from the DOM and all its children. Be careful when using it.
+:::
 
 In the code above, we are removing the element with the id `app` from the DOM. The `remove` method is a simple and effective way to remove an element from the DOM.

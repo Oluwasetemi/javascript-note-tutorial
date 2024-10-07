@@ -1,7 +1,10 @@
 ---
 type: lesson
+slug: addeventlistener
 title: Simple Event Listener
 focus: /counter.js
+openInStackBlitz: true
+editPageLink: https://github.com/Oluwasetemi/javascript-note-tutorial/blob/main/src/content/tutorial/0-document/3-event/1-lesson/content.md?plain=1
 ---
 
 # Events
@@ -46,9 +49,13 @@ Now, if we click on the button, we'll see the counter incrementing. This is the 
 
 In the next lesson, we'll explore different types of events and how we can use them to build more complex applications.
 
+:::tip
 Your goal is to keep watching all the videos on the LMS and read the JavaScript Node. Don't forget to practice coding every day. You can do it! 🚀
+:::
 
-### Remember this code snippet I dropped on slack for the LMS create-react-app issues on window
+:::info
+Remember this code snippet I dropped on slack for the LMS create-react-app issues on window
+:::
 
 ```sh
 # Instead of npx live-server . | npm install --global liver-server | npm i -g live-server then run live-server . 

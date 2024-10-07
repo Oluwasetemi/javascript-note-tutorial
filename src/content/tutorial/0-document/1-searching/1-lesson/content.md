@@ -1,5 +1,6 @@
 ---
 type: lesson
+slug: searching-dom-1
 title: Getting Started With DOM
 focus: /main.js
 ---
@@ -12,7 +13,9 @@ To kick things off, we have prepared a small demo lesson for you, where we'll di
 
 Let's look at the preview on the right for a moment, you will notice you can only see a blank page. `element` variable is not defined yet. 
 
+:::success
 **Your task is to find the element with the id `app` and assign it to the `element` variable.**
+:::
 
 
 ```ts add={2}

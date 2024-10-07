@@ -1,5 +1,6 @@
 ---
 type: lesson
+slug: modifying-dom-1
 title: Changing the DOM
 focus: /main.js
 ---
